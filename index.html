@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="trybewarts-header-logo"
+        src="images/trybewarts-header-logo.svg"
+        alt=""
+      />
+      <form class="trybewarts-login" action="">
+        <input type="email" name="email" placeholder="Email" />
+        <input type="passworld" name="passworld" placeholder="Senha" />
+        <button>Entrar</button>
+      </form>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- 
+
+Faça com que o formulário seja um flex container;
+Faça com que o formulário fique à direita da logo;
+Valide o formulário:
+
+Ao preencher o formulário e clicar no botão, será validado que:
+Caso o email seja "tryber@teste.com" e a senha seja "123456", será emitido um alerta contendo o texto "Olá, Tryber!";
+Em todos os outro casos deverá ser emitido um alerta contendo o texto "Email ou senha inválidos.";
+De olho na dica eyes: adicione a propriedade flex que faz os elementos terem o espaçamento máximo entre eles no header
+
+O que será testado:
+
+O formulário deve possuir a tag form e classe trybewarts-login;
+O formulário possui a propriedade CSS display: flex;
+O formulário está à direita da logo;
+Um dos inputs deve possuir o atributo name com valor igual a email e o atributo placeholder com valor igual a Email;
+Um dos inputs deve possuir o atributo name com valor igual a password e o placeholder com valor igual a Senha;
+O botão deve possuir o texto Entrar;
+O botão de login deve disparar um alert com o texto Email ou senha inválidos, no caso de erro de preenchimento dos dados;
+O botão de login deve disparar um alert com o texto Olá, Tryber!, no caso de preenchimento correto dos dados.
+ -->

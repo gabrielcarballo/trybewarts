@@ -37,3 +37,8 @@ main {
   display: flex;
   justify-content: flex-start;
 }
+
+#agree {
+  display: flex;
+  justify-content: flex-start;
+}

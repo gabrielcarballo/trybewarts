@@ -32,3 +32,8 @@ main {
   display: flex;
   justify-content: flex-start;
 }
+
+#ranking {
+  display: flex;
+  justify-content: flex-start;
+}

@@ -27,3 +27,8 @@ main {
   justify-content: flex-start;
 
 }
+
+#address {
+  display: flex;
+  justify-content: flex-start;
+}

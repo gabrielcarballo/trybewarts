@@ -15,3 +15,13 @@ function alerta() {
   });
 }
 alerta();
+
+const sendButton = document.getElementById('submit-btn');
+sendButton.disabled = true;
+const checkButton = document.getElementById('agreement');
+checkButton.addEventListener('click', (e) => {
+  e.target.checked;
+  if (checkButton.checked === true) {
+    sendButton.disabled = false;
+  } else { sendButton.disabled = true; }
+});

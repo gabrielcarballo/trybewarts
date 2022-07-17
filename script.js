@@ -24,3 +24,10 @@ checkButton.addEventListener('click', () => {
     sendButton.disabled = false;
   } else { sendButton.disabled = true; }
 });
+
+areaDeTexto = addEventListener('input', function () {
+  let areaDeTexto = document.querySelector('textarea');
+  let counter = document.getElementById('counter');
+  let contador = 500;
+  counter.innerHTML = contador - areaDeTexto.value.length;
+})

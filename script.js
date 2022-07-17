@@ -25,9 +25,9 @@ checkButton.addEventListener('click', () => {
   } else { sendButton.disabled = true; }
 });
 
-areaDeTexto = addEventListener('input', function () {
-  const areaDeTexto = document.querySelector('textarea');
-  const counter = document.getElementById('counter');
-  const contador = 500;
-  counter.innerHTML = contador - areaDeTexto.value.length;
-})
+areaDeTexto = addEventListener('input', () => {
+    const areaDeTexto = document.querySelector('textarea');
+    const counter = document.getElementById('counter');
+    const contador = 500;
+    counter.innerHTML = contador - areaDeTexto.value.length;
+  })

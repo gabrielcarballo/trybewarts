@@ -80,7 +80,7 @@ main {
 #address {
   display: flex;
   justify-content: flex-start;
-  align-content: center ;
+  align-content: center;
   margin-top: 10px;
 }
 

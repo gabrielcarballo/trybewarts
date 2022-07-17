@@ -1,17 +1,45 @@
+body {
+  background-color: #ebedef;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+header img {
+  height: 82px;
 }
 
 .trybewarts-login {
   display: flex;
 }
 
+.trybewarts-login input {
+  border-radius: 10px;
+  height: 40px;
+  margin-right: 10px;
+  padding-left: 10px;
+  border: none 0;
+}
+
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  margin-left: 100px;
+}
+
+.head-section {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 main {
@@ -28,9 +56,32 @@ main {
 
 }
 
+#name-section input {
+  height: 35px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+#address input {
+  height: 35px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+#address select {
+  width: 78%;
+}
+
 #address {
   display: flex;
   justify-content: flex-start;
+  align-content: center ;
+  margin-top: 10px;
+}
+
+.house-select {
+  width: 50%;
+  align-self: center;
 }
 
 #ranking {
@@ -41,4 +92,17 @@ main {
 #agree {
   display: flex;
   justify-content: flex-start;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2c3e50;
+  color: #ffffff;
+  font-size: 18px;
+  width: 100%;
 }

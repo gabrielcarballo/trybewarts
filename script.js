@@ -26,8 +26,8 @@ checkButton.addEventListener('click', () => {
 });
 
 areaDeTexto = addEventListener('input', function () {
-  let areaDeTexto = document.querySelector('textarea');
-  let counter = document.getElementById('counter');
-  let contador = 500;
+  const areaDeTexto = document.querySelector('textarea');
+  const counter = document.getElementById('counter');
+  const contador = 500;
   counter.innerHTML = contador - areaDeTexto.value.length;
 })

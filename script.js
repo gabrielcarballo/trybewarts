@@ -5,7 +5,7 @@ const listaInputs = document.getElementsByTagName('input');
 const submitForm = document.getElementById('submit-btn');
 const main = document.getElementsByTagName('main')[0];
 const areaDeTexto = document.querySelector('textarea');
-let familyForm = '';
+let familyForm;
 let conteudoForm = '';
 let rateForm = '';
 

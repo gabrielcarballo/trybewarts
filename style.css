@@ -112,8 +112,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(44, 62, 80);
+  background-color: rgb(44, 62, 81);
   color: white;
   font-size: 18px;
   width: 100%;
 }
+

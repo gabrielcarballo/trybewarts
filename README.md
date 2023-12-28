@@ -20,9 +20,9 @@ The form is replaced by the student's information when the "Submit" button is cl
 
 The project is structured into several JavaScript functions:
 
-- `catchfamily()`: This function presumably gathers the student's chosen family.
-- `catchConteudo()`: This function presumably gathers the student's chosen subjects.
-- `catchRate()`: This function presumably gathers the student's satisfaction rating.
+- `catchfamily()`: This function gathers the student's chosen family.
+- `catchConteudo()`: This function gathers the student's chosen subjects.
+- `catchRate()`: This function gathers the student's satisfaction rating.
 - `submitForm()`: This function gathers the values from the form fields, hides the form, creates a new `div` element, and populates it with the gathered form data.
 
 ## Project Requirements
